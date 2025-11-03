@@ -1,9 +1,9 @@
-=> TreeVision: Console Binary Search Tree Visualizer :
+TreeVision: Console Binary Search Tree Visualizer :
 
 TreeVision is a lightweight C library designed to generate a clear, ASCII representation of a Binary Search Tree (BST) directly to the console. It automatically calculates node spacing and includes continuous connector lines and the Unicode symbol ⏚ (Bottom) for all NULL pointers.
 
 
-=> Features :
+✨Features :
 
 -> Automatic Layout: Calculates tree height and node positions for optimal visual balance.
 -> Solid Connections: Draws continuous /, \, and - characters to connect nodes visually.
@@ -11,7 +11,7 @@ TreeVision is a lightweight C library designed to generate a clear, ASCII repres
 -> Traversals: Outputs Inorder, Preorder, and Postorder traversals.
 
 
-=> 🛠️ Installation and Building :
+🛠️ Installation and Building :
 
 1. Clone the repository:
     git clone <your-github-repo-url>
@@ -40,7 +40,8 @@ TreeVision is a lightweight C library designed to generate a clear, ASCII repres
     ./myprogram
 
 
-=> Example Output
+🗒️Example Output
+
 Tree visualization (Optimized):
 
         100
