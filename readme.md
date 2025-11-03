@@ -56,6 +56,9 @@ Tree visualization (Optimized):
        NULL   NULL
 
 Traversals:
+
 Inorder: 25 30 35 40 50 65 70 75 85 
+
 Preorder: 50 30 25 40 35 70 65 85 75 
+
 Postorder: 25 35 40 30 65 75 85 70 50
