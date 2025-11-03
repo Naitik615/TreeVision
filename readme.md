@@ -24,19 +24,20 @@ TreeVision is a lightweight C library designed to generate a clear, ASCII repres
 
 4.    1~  #include "treevision.h"
         -> Now Below function ca be used :
-                [$]~ insertBST(root, value);    -> Function to insert a node in BST.
+  
+          [$]~ insertBST(root, value);    -> Function to insert a node in BST.
+  
+          [$]~ printTreeVisual(root);     -> Function to Print the Binary Tree.
 
-                [$]~ printTreeVisual(root);     -> Function to Print the Binary Tree.
+          [$]~ printTraversals(root);     -> Function to print Inorder, Pre-order and Post-order.
 
-                [$]~ printTraversals(root);     -> Function to print Inorder, Pre-order and Post-order.
+          [$]~ freeTree(root);    -> Function to Free the Tree.
 
-                [$]~ freeTree(root);    -> Function to Free the Tree.
-
-5. Compile :
+6. Compile :
     gcc myfile.c treevision.c -o myprogram 
 (There may be some Warnings - To fix please use { struct Node* root = NULL; } for the root node of tree.)
 
-6. Run the Program:
+7. Run the Program:
     ./myprogram
 
 
@@ -48,9 +49,9 @@ Tree visualization (Optimized):
        /   \
       20   NULL
     /   \
-   5     45
-  / \   /  \
-NULL NULL   60
+    5     45
+    / \   /  \
+    NULL NULL   60
           /  \
        NULL   NULL
 
